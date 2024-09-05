@@ -43,11 +43,11 @@ GitHub = "https://www.github.com/pimoroni/lsm6ds3-python"
 Homepage = "https://www.pimoroni.com"
 
 [tool.hatch.version]
-path = "LSM6DS3/__init__.py"
+path = "lsm6ds3/__init__.py"
 
 [tool.hatch.build]
 include = [
-    "LSM6DS3",
+    "lsm6ds3",
     "README.md",
     "CHANGELOG.md",
     "LICENSE"

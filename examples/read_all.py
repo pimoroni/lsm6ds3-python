@@ -1,6 +1,6 @@
 import time
 
-import LSM6DS3
+from lsm6ds3 import LSM6DS3
 
 lsm = LSM6DS3()
 

@@ -21,7 +21,7 @@ def smbus():
 
 
 @pytest.fixture()
-def LSM6DS3():
-    import LSM6DS3
-    yield LSM6DS3
-    del sys.modules['LSM6DS3']
+def lsm6ds3():
+    import lsm6ds3
+    yield lsm6ds3
+    del sys.modules['lsm6ds3']
