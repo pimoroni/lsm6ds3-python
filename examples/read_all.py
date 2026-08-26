@@ -6,5 +6,5 @@ lsm = LSM6DS3()
 
 while True:
     ax, ay, az, gx, gy, gz = lsm.get_readings()
-    print("Accelerometer\nX:{}, Y:{}, Z:{}\nGyro\nX:{}, Y:{}, Z{}\n\n ".format(ax, ay, az, gx, gy, gz))
+    print(f"Accelerometer\nX:{ax}, Y:{ay}, Z:{az}\nGyro\nX:{gx}, Y:{gy}, Z{gz}\n\n ")
     time.sleep(1.0)
