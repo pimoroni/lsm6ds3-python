@@ -1,4 +1,9 @@
-__version__ = '0.0.2'
+from importlib.metadata import PackageNotFoundError, version
+
+try:
+    __version__ = version("lsm6ds3")
+except PackageNotFoundError:
+    __version__ = "0.0.0"
 
 # Registers
 WHO_AM_I = 0x0F
